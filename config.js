@@ -66,7 +66,7 @@ const CONFIG = {
 		{
 			id: '3',
 			name: 'Torrent',
-			icon: 'trello',
+			icon: 'download',
 			link: 'http://192.168.1.36:8080/',
 		},
 		{
