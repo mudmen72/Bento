@@ -11,8 +11,8 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
-	imageBackground: false,
+	name: 'mudmen',
+	imageBackground: true,
 	openInNewTab: true,
 	twelveHourFormat: false,
 
@@ -20,7 +20,7 @@ const CONFIG = {
 	greetingMorning: 'Good morning!',
 	greetingAfternoon: 'Good afternoon,',
 	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingNight: 'Go to Sleep u fucker!',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
@@ -32,8 +32,8 @@ const CONFIG = {
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '48.853',
+	defaultLongitude: '2.348',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -61,13 +61,13 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://mail.google.com/mail/',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
+			name: 'NAS',
 			icon: 'trello',
-			link: 'https://todoist.com',
+			link: 'https://192.168.1.29/cgi-bin/',
 		},
 		{
 			id: '4',
@@ -83,9 +83,9 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'YouTube',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://www.youtube.com/',
 		},
 	],
 
@@ -139,20 +139,20 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Plex',
+					link: 'http://192.168.1.33:32400/web/index.html#!/',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Twitch',
+					link: 'https://www.twitch.tv/illojuan',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'RTvE',
+					link: 'https://www.rtve.es/play/la-revuelta/',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Netflix',
+					link: 'https://www.netflix.com/browse',
 				},
 			],
 		},
@@ -161,20 +161,20 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Photopea',
+					link: 'https://www.photopea.com/',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Meta Business',
+					link: 'https://business.facebook.com/latest/home?asset_id=219132751287682',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Google Drive',
+					link: 'https://drive.google.com/drive/u/0/home',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Facebook',
+					link: 'http://www.facebook.com/',
 				},
 			],
 		},
