@@ -65,9 +65,9 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'NAS',
+			name: 'Torrent',
 			icon: 'trello',
-			link: 'https://192.168.1.29/cgi-bin/',
+			link: 'http://192.168.1.36:8080/',
 		},
 		{
 			id: '4',
