@@ -59,15 +59,15 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.google.com/mail/',
+			name: 'MTR Pro Portal',
+			icon: 'monitor-check',
+			link: 'https://portal.rooms.microsoft.com/#',
 		},
 		{
 			id: '3',
-			name: 'Torrent',
-			icon: 'download',
-			link: 'http://192.168.1.36:8080/',
+			name: 'ComeenPlay',
+			icon: 'monitor-down',
+			link: 'https://admin.new.play.comeen.com/',
 		},
 		{
 			id: '4',
@@ -77,15 +77,15 @@ const CONFIG = {
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'bot-message-square',
-			link: 'https://reddit.com',
+			name: 'SupportDigital',
+			icon: 'monitor-cog',
+			link: 'https://spiebatignollesprod.service-now.com/now/workspace/agent/home',
 		},
 		{
 			id: '6',
-			name: 'YouTube',
-			icon: 'youtube',
-			link: 'https://www.youtube.com/',
+			name: 'Lookout',
+			icon: 'shield-plus',
+			link: 'https://aad.lookout.com/',
 		},
 	],
 
@@ -135,12 +135,12 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'briefcase-business',
 			id: '1',
 			links: [
 				{
-					name: 'Plex',
-					link: 'http://192.168.1.33:32400/web/index.html#!/',
+					name: 'ThinkSmart Manager',
+					link: 'https://portal.euwe1.uds.lenovo.com/spiebatignolles/portal/smart-office/dashboard',
 				},
 				{
 					name: 'Twitch',
