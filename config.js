@@ -71,9 +71,9 @@ const CONFIG = {
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'RateYourMusic',
+			icon: 'list-music',
+			link: 'https://rateyourmusic.com/',
 		},
 		{
 			id: '5',
