@@ -67,7 +67,7 @@ const CONFIG = {
 			id: '3',
 			name: 'Torrent',
 			icon: 'download',
-			link: 'http://192.168.1.36:8080/',
+			link: 'http://192.168.1.69:9091/transmission/web/',
 		},
 		{
 			id: '4',
