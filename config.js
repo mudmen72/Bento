@@ -140,7 +140,7 @@ const CONFIG = {
 			links: [
 				{
 					name: 'Plex',
-					link: 'http://192.168.1.33:32400/web/index.html#!/',
+					link: 'http://192.168.1.69:32400/web/index.html#!',
 				},
 				{
 					name: 'Twitch',
