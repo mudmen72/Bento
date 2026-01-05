@@ -17,7 +17,7 @@ const CONFIG = {
 	twelveHourFormat: false,
 
 	// Greetings
-	greetingMorning: 'Go to work!',
+	greetingMorning: 'Wake mate!',
 	greetingAfternoon: 'Good afternoon,',
 	greetingEvening: 'Good evening,',
 	greetingNight: 'Go to Sleep u fucker!',
@@ -59,33 +59,33 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'MTR Pro Portal',
-			icon: 'monitor-check',
-			link: 'https://portal.rooms.microsoft.com/#',
+			name: 'Mail',
+			icon: 'mail',
+			link: 'https://mail.google.com/mail/',
 		},
 		{
 			id: '3',
-			name: 'ComeenPlay',
-			icon: 'monitor-down',
-			link: 'https://admin.new.play.comeen.com/',
+			name: 'Torrent',
+			icon: 'download',
+			link: 'http://192.168.1.69:9091/transmission/web/',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'RateYourMusic',
+			icon: 'list-music',
+			link: 'https://rateyourmusic.com/',
 		},
 		{
 			id: '5',
-			name: 'SupportDigital',
-			icon: 'monitor-cog',
-			link: 'https://spiebatignollesprod.service-now.com/now/workspace/agent/home',
+			name: 'Reddit',
+			icon: 'bot-message-square',
+			link: 'https://reddit.com',
 		},
 		{
 			id: '6',
-			name: 'Lookout',
-			icon: 'shield-plus',
-			link: 'https://aad.lookout.com/',
+			name: 'YouTube',
+			icon: 'youtube',
+			link: 'https://www.youtube.com/',
 		},
 	],
 
@@ -135,12 +135,12 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'briefcase-business',
+			icon: 'music',
 			id: '1',
 			links: [
 				{
-					name: 'ThinkSmart Manager',
-					link: 'https://portal.euwe1.uds.lenovo.com/spiebatignolles/portal/smart-office/dashboard',
+					name: 'Plex',
+					link: 'http://192.168.1.69:32400/web/index.html#!',
 				},
 				{
 					name: 'Twitch',
