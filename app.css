@@ -149,10 +149,10 @@ body {
 #weekday {
   font-size: calc(var(--fg-date) * 0.5);
   font-weight: 600;
-  color: var(--sfg);
+  color: var(--fg);
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  opacity: 0.7;
+  opacity: 1;
 }
 
 .dateRow {
