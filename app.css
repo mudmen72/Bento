@@ -136,23 +136,56 @@ body {
   justify-content: center;
 }
 
-#weekday {
-  font-size: var(--fg-date);
-  font-weight: bold;
-  color: var(--fg);
-  opacity: 0.85;
-  letter-spacing: 0.05em;
-}
-
+/* Date Styling - modern dashboard version */
 .date {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
-  gap: 0.6rem;
+  margin-top: 20px;
+  gap: 1rem;
 }
 
+#weekday {
+  font-size: calc(var(--fg-date) * 0.5);
+  font-weight: 600;
+  color: var(--sfg);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  opacity: 0.7;
+}
+
+.dateRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#dayCircle {
+  width: 4.5rem;
+  height: 4.5rem;
+  background-color: var(--cards);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#day {
+  font-size: calc(var(--fg-date) * 1.2);
+  font-weight: 700;
+  color: var(--fg);
+}
+
+#month {
+  font-size: calc(var(--fg-date) * 0.6);
+  font-weight: 500;
+  color: var(--sfg);
+  text-transform: uppercase;
+}
 .weather {
   display: flex;
   align-items: center;
